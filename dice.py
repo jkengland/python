@@ -8,10 +8,8 @@ amount = int(input("number of dice:"))
 answer = ""
 
 if dice == 1:
-
- for i in range(amount):
   import random
-  random_number = random.randint(1,4)
+  random_number = sum([random.randint(1,4) for i in range(amount)])
   print(random_number)  
      
     
