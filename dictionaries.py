@@ -9,5 +9,3 @@ mydictionary5 = {'numbers' : [1,2,3,4,5,6]}
 # or use variables in the dictionary
 mylist = [1,2,3,'pants']
 mydictionary2 = {'numbers2' : mylist}
-
-

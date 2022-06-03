@@ -5,37 +5,38 @@ print("   4. d10  5. d12   6. d20  7. d100\n")
 
 dice = int(input("what die would you like to roll "))
 amount = int(input("number of dice:"))
-answer = ""
 
 if dice == 1:
   import random
   random_number = sum([random.randint(1,4) for i in range(amount)])
   print(random_number)  
+
+if dice == 2:
+  import random
+  random_number = sum([random.randint(1,6) for i in range(amount)])
+  print(random_number)  
+
+if dice == 3:
+  import random
+  random_number = sum([random.randint(1,8) for i in range(amount)])
+  print(random_number)  
      
-    
+if dice == 4:
+  import random
+  random_number = sum([random.randint(1,10) for i in range(amount)])
+  print(random_number)  
 
+if dice == 5:
+  import random
+  random_number = sum([random.randint(1,12) for i in range(amount)])
+  print(random_number)  
 
-#if random_number == 1:
-#      answer = "Yes - definitely."
-#elif random_number == 2:11
-#  answer = "It is decidedly so."
-#elif random_number == 3:
-#  answer = "Without a doubt."
-#elif random_number == 4:
-#  answer = "Reply hazy, try again."
-#elif random_number == 5:
-#  answer = "Ask again later."
-#elif random_number == 6:
-#  answer = "Better not tell you now."
-#elif random_number == 7:
-#  answer = "My sources say no."
-#elif random_number == 8:
-#  answer = "Outlook not so good."
-#elif random_number == 9:
-#  answer = "Very doubtful."
-#elif random_number == 10:
-#  answer = "Yes"
-#else:
-#  answer = "Error"
-#print(name, "asks:", question)
-#print("Magic 8-Ball's answer:",answer)
+if dice == 6:
+  import random
+  random_number = sum([random.randint(1,20) for i in range(amount)])
+  print(random_number)           
+         
+if dice == 7:
+  import random
+  random_number = sum([random.randint(1,100) for i in range(amount)])
+  print(random_number)       
